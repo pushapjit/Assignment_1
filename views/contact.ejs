@@ -1,0 +1,44 @@
+<% include partials/header.ejs %>
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Contact form  -->
+            <form method="get" action="/">
+                <!-- First name  -->
+                <div class="form-group form_padding">
+                    <label for="firstname">First Name <font style="color: red;">*</font></label>
+                    <input type="text" class="form-control" id="firstname" placeholder="Enter first Name">
+                </div>
+                <!-- Last name  -->
+                <div class="form-group form_padding">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Enter Last name">
+                </div>
+                <!-- email  -->
+                <div class="form-group form_padding">
+                    <label for="exampleInputEmail1">Email address <font style="color: red;">*</font></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email">
+                </div>
+                <!-- contact number  -->
+                <div class="form-group form_padding">
+                    <label for="contactnumber">Contact number <font style="color: red;">*</font></label>
+                    <input type="email" class="form-control" id="contactnumber" placeholder="Enter contact Number">
+                </div>
+                <!-- message  -->
+                <div class="form-group form_padding">
+                    <label for="Message">Message</label>
+                    <textarea rows="5" cols="30" class="form-control" id="Message" placeholder="Enter Message"></textarea>
+                </div>
+                <!-- submit button  -->
+                <button type="submit" class="prjbtn">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src="/images/contact.jpg" class="img-fluid">
+        </div>
+        </div>
+    </div>
+</div>
+
+<% include partials/footer.ejs %>

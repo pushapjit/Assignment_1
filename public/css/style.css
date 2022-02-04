@@ -1,0 +1,82 @@
+/*File name - Style.css
+Student’s Name - Pushapjit Singh
+StudentID - 301231595
+Date 02-02-2022 */
+a{
+  text-decoration: none;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+/* navbar */
+.for-mobile{
+  display: none !important;
+}
+@media only screen and (max-width:768px){
+  .for-desktop{
+    display: none !important;
+  }
+  .for-mobile{
+    display: block !important;
+  }
+}
+button.navbar-toggler {
+  position: absolute;
+  right: 10px !important;
+}
+.padding_top{
+  padding-top: 10px;
+}
+/* home page  */
+.background_home{
+  background-image: url("/images/me.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh !important;
+  background-position: center;
+}
+@media only screen and (max-width:600px){
+  .background_home{
+    height: 30vh !important;
+  }
+}
+.know_more{
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: darkgreen;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: -50px !important;
+}
+.know_more:hover{
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: white;
+  color: darkgreen;
+  border: 1px solid darkgreen;
+  text-decoration: none;
+  border-radius: 8px;
+}
+/* about page */
+.project_button{
+  padding: 15px 25px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.project_button:hover{
+  padding: 15px 25px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+/* contact page  */
+.form_padding{
+  padding: 20px 0px;
+}
