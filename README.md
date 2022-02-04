@@ -1,4 +1,4 @@
-# Comp229.003
- COMP229.003 - Code Example
+# Comp229.003 Assignment 1
+ Express Portfolio Website
 
  
